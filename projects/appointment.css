@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Itim';
+    src: url('Itim-Regular.ttf') format('truetype');
+}
+.bookingForm {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    columns: 2;
+    width: 600px;
+}
+h2 {
+    padding: 30px 0 3px 180px;
+    font-family: 'Itim';
+}
+
+#email, #phone, #date, #first {
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+}
+#message {
+    width: 550px;
+    height: 90px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+}
+.nurse {
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+    float: top;
+    margin-inline-start: 667px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+}
+section {
+    display: flex;
+}
+.comment {
+    
+    width: 100%;
+    height: 350px;
+    background-color: #FB9953;
+    margin-top: 35px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    flex: 1;
+}
+
+h3, p {
+    flex-direction: column;
+    color: #ffffff;
+    
+}
+
+
+.comment h3 {
+    padding-left: 25px;
+    left: 0;
+}
+.comment p {
+    padding-left: 25px;
+}
+
+.card p {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px; 
+    width: 300px;
+    padding-block: 10px;
+}
+.card h4 {
+    font-display: flex;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration-style: wavy;
+    border: none;
+}
+
+.bb {
+    display: block;
+    text-align: right;
+    margin-right: 25px;
+    flex: 1;
+}
+#submit {
+    background-color: #152AE9;
+    padding: 10px 12px;
+    border: none;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-right: 420px ;
+}
+.grid {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    
+} 
+.card img {
+    margin-left: 125px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20%;
+    width: 80px;
+    height: 80px;
+}
+.card {
+    display: flex;
+    background-color: #ffffff;
+    width: 330px;
+    height: 230px;
+    padding-inline: 5px;
+    padding-block: 0px;
+}
+.one, .two, .three {
+    display: block;
+    padding-top: 5px;
+    flex-wrap: wrap;
+}
+.two, .three {
+    margin-left: 40px;
+}
+.xx {
+    display: inline-block;
+    margin-left: 175px;
+}
+hr {
+    margin: 5px;
+    width: 100px;
+    border-style: none;
+    border-top: 4px solid #152AE9;
+}
+hr, .house {
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn {
+    background-color: #152AE9;
+    color: #ffffff;
+    padding: 5px 5px;
+    border: none;
+}
+.btn1 {
+    background-color: #ffffff;
+    color: #152AE9;
+    padding: 5px 5px;
+    border: none;
+}
+.dots {
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.oo {
+    margin-left: 350px;
+}
+footer {
+    background-color: #152AE9;
+    padding-block: 20px;
+}
+.foot {
+    display: flex;
+    padding-left: 30px; 
+}
+li {
+    display: inline;
+    margin: 5px;
+    text-align: right;
+    text-decoration: none;
+}
+.lag {
+    display: inline-flex;
+    padding-block: 30px;
+    width: 150px;
+    flex-wrap: wrap;
+}
+.lag h4 {
+    font-family: 'Itim';
+    color: #ffffff;
+    margin-left: 5px;
+    padding-block: 10px;
+    text-align: left;
+    
+}
+.lag p {
+    text-align: left;
+    display: flex;
+    color: #ffffff;
+    padding-block: 40px;
+}
+
+footer ul li a {
+    display: grid;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1px;
+}
+footer h3 {
+    color: #ffffff;
+    text-align: justify;
+}
+
+.foot li {
+    text-decoration: none;
+    text-orientation: upright;
+    text-align: justify;
+}
+
+.footy {
+    display: inline-flex;
+    padding-left: 30px;
+    text-align: right;
+}
+.ft {
+    padding-block: 30px;
+    padding-left: 300px;
+}
+.logos {
+    display: flex;
+    padding-inline-start: 70px;
+    
+}
+
+.logos img {
+    margin-left: 15px;
+}
+.fb, .ig {
+    filter: invert(100%);
+}
+
+
+.twitter {
+    align-self: left;
+    filter: invert()
+} 

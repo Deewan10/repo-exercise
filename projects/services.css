@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Itim';
+    src: url('Itim-Regular.ttf') format('truetype');
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+li {
+    display: inline;
+    margin: 5px;
+    text-align: right;
+    text-decoration: none;
+}
+#Services {
+    color: #152AE9;
+    text-decoration: underline #152AE9;
+}
+#Services:hover {
+    color: orangered;
+    text-decoration: underline orangered;
+}
+.logo {
+    display: inline-flex;
+    flex: 1;
+}
+
+.logo img {
+    margin-left: 20px;
+    margin-top: 10px;
+    align-items: left;
+}
+.logo p {
+    margin-left: 5px;
+    margin-top: 20px;
+    color: #152AE9;
+    font-family: "Itim", sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+}
+body {
+    background-color: rgba(245, 245, 245, 0.9) ; 
+}
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 65px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: inline;
+    margin: 5px;
+    text-align: right;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: orangered;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 1;
+    padding-block: 20px;
+    margin-inline-start: 20px;
+}
+.column h3 {
+    font-size: 42px;
+    font-family: "Itim", sans-serif;
+}
+.column p {
+    text-align: justify;
+    font-size: 22px;
+}
+.learn {
+    padding: 14px 10px;
+    color: #ffffff;
+    background-color: #152AE9;
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin-left: 51.5%;
+}
+.learnm {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.arrow {
+    display: inline-block;
+    margin: 2px;
+    vertical-align: middle;
+}
+
+.grid {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;   
+} 
+
+.card {
+    display: flex;
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.5px 0 5px black;
+}
+.card h4, .card p {
+    padding-top: 15px;
+}
+
+.one, .two, .three, .four, .five, .six {
+    display: block;
+    padding-top: 40px;
+    padding-left: 15px;
+    flex-wrap: wrap;
+}
+.one a, .two a, .three a, .four a, .six a {
+    padding-block: 70px;
+    text-decoration: none;
+    color: #152AE9;
+}
+.five a {
+    padding-block: 55px;
+    text-decoration: none;
+    color: #152AE9; 
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #152AE9;
+    padding-block: 20px;
+}
+.foot {
+    display: flex;
+    padding-left: 30px; 
+}
+.lag {
+    display: inline-flex;
+    padding-block: 30px;
+    width: 150px;
+    flex-wrap: wrap;
+}
+.lag h4 {
+    font-family: 'Itim';
+    color: #ffffff;
+    margin-left: 5px;
+    padding-block: 10px;
+    text-align: left;
+    
+}
+.lag p {
+    text-align: left;
+    display: flex;
+    color: #ffffff;
+    padding-block: 40px;
+}
+
+footer ul li a {
+    display: grid;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1px;
+}
+footer h3 {
+    color: #ffffff;
+    text-align: justify;
+}
+
+.foot li {
+    text-decoration: none;
+    text-orientation: upright;
+    text-align: justify;
+}
+
+.footy {
+    display: inline-flex;
+    padding-left: 30px;
+    text-align: right;
+}
+.ft {
+    padding-block: 30px;
+    padding-left: 300px;
+}
+.logos {
+    display: flex;
+    padding-inline-start: 70px;
+    
+}
+
+.logos img {
+    margin-left: 15px;
+}
+.fb, .ig {
+    filter: invert(100%);
+}
+
+
+.twitter {
+    align-self: left;
+    filter: invert()
+} 
